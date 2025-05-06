@@ -1,9 +1,9 @@
 package model
 
-import java.time.OffsetDateTime
 import java.math.BigDecimal
+import java.time.OffsetDateTime
 
-class Transaction(
+data class Transaction(
     val valor: BigDecimal,
     val dataHora: OffsetDateTime
 )
